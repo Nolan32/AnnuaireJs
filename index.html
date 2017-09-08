@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Annuaire</title>
+    <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.css">
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+      <div class="col s4">
+        <label for="Surname">Prénom</label>
+        <input type="text" name="" id='Surname' value="">
+      </div>
+      <div class="col s4">
+        <label for="LastName">Nom</label>
+        <input type="text" id='LastName' name="" value="">
+
+      </div>
+      <div class="col s4">
+        <label for="PhoneNumber">Numéro de téléphone</label>
+        <input type="text" id='PhoneNumber' name="" value="">
+      </div>
+      <button type="button" id='send' name="button">enregistrer contact</button>
+      <button type="button" id='sendEdit'name="button">MODIFIER LE CONTACT</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Prénom</th>
+          <th>Nom</th>
+          <th>NumTel</th>
+          <th>Supprimer</th>
+          <th>modifier</th>
+        </tr>
+        <tbody id='annu'>
+
+        </tbody>
+      </thead>
+    </table>
+  <script type="text/javascript" src='node_modules/jquery/dist/jquery.js'></script>
+  <script type="text/javascript" src='node_modules/materialize-css/dist/js/materialize.js'></script>
+  <script type="text/javascript" src='js/app.js'></script>
+  </body>
+</html>
